@@ -6,13 +6,15 @@ location, temperature, engine temperature, speed, and so on. Data is enriched
 with weather data and other data in the device and in the AWS cloud.
 
 
-# THINGS USED IN THIS PROJECT
+## THINGS USED IN THIS PROJECT
 
-* Hardware components:
+### Hardware components:
+
 * Raspberry Pi 3
 * Avnet Cellular Shield
+* Xadow GPS Module
 
-Software apps and online services:
+### Software apps and online services:
 
 * AWS IoT
 * Amazon Kinesis Firehose

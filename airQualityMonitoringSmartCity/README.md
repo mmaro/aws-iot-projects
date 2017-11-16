@@ -5,9 +5,9 @@ to parking, monitoring and control of water quality, monitoring of air quality
 is also a key element of a smart city which is also aimed at reducing levels
 of greenhouse gases and combating global warming.
 
-# THINGS USED IN THIS PROJECT
+## THINGS USED IN THIS PROJECT
 
-Hardware components:
+### Hardware components:
 
 * Raspberry Pi 3
 * Avnet Cellular Shield
@@ -18,7 +18,7 @@ Hardware components:
 * Solar charger Power Bank 24000mah Huge Capacity Portable Charger 3 Output Ports
 * uxcell Waterproof Cable Connect Power Project Case Junction Box 200x120x75mm
 
-Software apps and online services:
+### Software apps and online services:
 
 * AWS IoT
 * Amazon Kinesis Firehose

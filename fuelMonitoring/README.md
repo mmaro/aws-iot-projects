@@ -4,9 +4,9 @@ For diesel generators, fuel tanks, trucks and heavy machinery, the remote
 fuel monitoring solution is a more accurate way to prevent losses, improve
 operations cost and efficiency.
 
-# THINGS USED IN THIS PROJECT
+## THINGS USED IN THIS PROJECT
 
-Hardware components:
+### Hardware components:
 
 * Raspberry Pi 3
 * Avnet Cellular Shield
@@ -16,7 +16,7 @@ Hardware components:
 * uxcell Waterproof Cable Connect Power Project Case Junction Box 200x120x75mm
 * Ultrasonic Sensor - HC-SR04
 
-Software apps and online services:
+### Software apps and online services:
 
 * AWS IoT
 * Amazon Kinesis Firehose

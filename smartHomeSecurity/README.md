@@ -6,9 +6,9 @@ and intelligence to homes using AWS IoT services, applications and sensors.
 Also, provides insurance and voice controlled features using Alexa Voice Services
 and other AI services.
 
-# THINGS USED IN THIS PROJECT
+## THINGS USED IN THIS PROJECT
 
-Hardware components:
+### Hardware components:
 
 * Raspberry Pi 3
 * Avnet Cellular Shield
@@ -19,7 +19,7 @@ Hardware components:
 * Phantom YoYo High Sensitivity Water Sensor
 * Arduino UNO
 
-Software apps and online services:
+### Software apps and online services:
 
 * AWS IoT
 * Amazon Kinesis Firehose
