@@ -9,32 +9,32 @@ of greenhouse gases and combating global warming.
 
 Hardware components:
 
-Raspberry Pi 3
-Avnet Cellular Shield
-Environmental Combo Breakout - CCS811
-Xadow GPS Module
-Air Quality Breakout - CCS811
-IC Hook with Pigtail
-Solar charger Power Bank 24000mah Huge Capacity Portable Charger 3 Output Ports
-uxcell Waterproof Cable Connect Power Project Case Junction Box 200x120x75mm
+* Raspberry Pi 3
+* Avnet Cellular Shield
+* Environmental Combo Breakout - CCS811
+* Xadow GPS Module
+* Air Quality Breakout - CCS811
+* IC Hook with Pigtail
+* Solar charger Power Bank 24000mah Huge Capacity Portable Charger 3 Output Ports
+* uxcell Waterproof Cable Connect Power Project Case Junction Box 200x120x75mm
 
 Software apps and online services:
 
-AWS IoT
-Amazon Kinesis Firehose
-Amazon CloudWatch
-Dark Sky API
-Wunderground API
-Amazon S3
-AWS Lamda
-Amazon Poly
-Amazon Lex
-Amazon Redshift
-Amazon DynamoDB
-Amazon SQS
-Messaging / Notification Services
-Amazon Quicksight
-Custom User Interface Using Angular
-Open API for Rest Service
-Android
-iOS
+* AWS IoT
+* Amazon Kinesis Firehose
+* Amazon CloudWatch
+* Dark Sky API
+* Wunderground API
+* Amazon S3
+* AWS Lamda
+* Amazon Poly
+* Amazon Lex
+* Amazon Redshift
+* Amazon DynamoDB
+* Amazon SQS
+* Messaging / Notification Services
+* Amazon Quicksight
+* Custom User Interface Using Angular
+* Open API for Rest Service
+* Android
+* iOS

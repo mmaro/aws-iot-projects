@@ -10,32 +10,32 @@ and other AI services.
 
 Hardware components:
 
-Raspberry Pi 3
-Avnet Cellular Shield
-Environmental Combo Breakout - CCS811
-Xadow GPS Module
-Air Quality Breakout - CCS811
-IC Hook with Pigtail
-Phantom YoYo High Sensitivity Water Sensor
-Arduino UNO
+* Raspberry Pi 3
+* Avnet Cellular Shield
+* Environmental Combo Breakout - CCS811
+* Xadow GPS Module
+* Air Quality Breakout - CCS811
+* IC Hook with Pigtail
+* Phantom YoYo High Sensitivity Water Sensor
+* Arduino UNO
 
 Software apps and online services:
 
-AWS IoT
-Amazon Kinesis Firehose
-Amazon CloudWatch
-Dark Sky API
-Wunderground API
-Amazon S3
-AWS Lamda
-Amazon Poly
-Amazon Lex
-Amazon Redshift
-Amazon DynamoDB
-Amazon SQS
-Messaging / Notification Services
-Amazon Quicksight
-Custom User Interface Using Angular
-Open API for Rest Service
-Android
-iOS
+* AWS IoT
+* Amazon Kinesis Firehose
+* Amazon CloudWatch
+* Dark Sky API
+* Wunderground API
+* Amazon S3
+* AWS Lamda
+* Amazon Poly
+* Amazon Lex
+* Amazon Redshift
+* Amazon DynamoDB
+* Amazon SQS
+* Messaging / Notification Services
+* Amazon Quicksight
+* Custom User Interface Using Angular
+* Open API for Rest Service
+* Android
+* iOS
