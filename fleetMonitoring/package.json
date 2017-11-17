@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "aws-iot-device-sdk": "^2.1.0",
-    "aws-sdk": "^2.150.0"
+    "aws-sdk": "^2.150.0",
+    "winston": "^2.3.1"
   },
   "devDependencies": {
     "jscs": "^3.0.7",
@@ -18,5 +19,5 @@
     "mocha": "^3.2.0",
     "should": "^7.1.0",
     "supertest": "^1.0.0"
-  },
+  }
 }
