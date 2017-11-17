@@ -36,7 +36,7 @@ with weather data and other data in the device and in the AWS cloud.
 
 -   [Prerequisites](#prerequisites)
 -   [Quick, How Do I Use It?!](#quick-how-do-i-use-it)
--   [How It Works](#how-it-works) Developing ...
+-   [How It Works](#how-it-works)
 
 ## Prerequisites
 
@@ -47,7 +47,7 @@ with weather data and other data in the device and in the AWS cloud.
 
 ## Quick, How Do I Use It?!
 
-In the directory for the sub-project, navigate to truck js and execute the command below:
+In the directory for the sub-project, navigate the [Fleet Monitoring or Trucking IoT sub-directory] of this project (https://github.com/mmaro/aws-iot-projects/tree/master/fleetMonitoring) and then to truck js in the truckDataLogging folder and execute the command below:
 
 ```
 node truck.js
@@ -57,4 +57,4 @@ node truck.js
 
 Developing ...
 
-For an indepth look at the different components, check out the [Fleet Monitoring or Trucking IoT Wiki](#).  For any questions or requests for more documentation, feel free to open an issue or fork this repo and contribute!
+For an indepth look at the different components, check out the [Fleet Monitoring or Trucking IoT Wiki](#prerequisites).  For any questions or requests for more documentation, feel free to open an issue or fork this repo and contribute!
