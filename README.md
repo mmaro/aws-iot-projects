@@ -47,11 +47,12 @@ with weather data and other data in the device and in the AWS cloud.
 
 ## Quick, How Do I Use It?!
 
-In the directory for the sub-project, navigate the [Fleet Monitoring or Trucking IoT sub-directory] of this project (https://github.com/mmaro/aws-iot-projects/tree/master/fleetMonitoring) and then to truck js in the truckDataLogging folder and execute the command below:
+In the directory for the sub-project, navigate the [Fleet Monitoring or Trucking IoT sub-directory] (https://github.com/mmaro/aws-iot-projects/tree/master/fleetMonitoring) of this project and then to truck js in the truckDataLogging folder and execute the command below:
 
 ```
 node truck.js
 ```
+Add private key, private certificate and root certificate to the same path as the truck js. Modify the path to the credentials in the script.
 
 ## How it Works
 
