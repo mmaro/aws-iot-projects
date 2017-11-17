@@ -2,7 +2,6 @@
 
 const aws = require('aws-sdk');
 const iotData = new aws.IotData({endpoint: 'awf0qyr416vol.iot.us-east-1.amazonaws.com'});
-//const iotData = new aws.IotData({endpoint: '/* look up using AWS CLI command aws iot describe-endpoint */'});
 
 exports.handler = function(event, context) {
 

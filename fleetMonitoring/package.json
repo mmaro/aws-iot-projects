@@ -11,5 +11,12 @@
   "dependencies": {
     "aws-iot-device-sdk": "^2.1.0",
     "aws-sdk": "^2.150.0"
-  }
+  },
+  "devDependencies": {
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
 }

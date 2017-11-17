@@ -2,22 +2,6 @@
 var awsIot = require('aws-iot-device-sdk');
 
 const aws = require('aws-sdk');
-//const iotData = new aws.IotData({endpoint: 'awf0qyr416vol.iot.us-east-1.amazonaws.com'});
-
-/*
-const device = deviceModule({
-   keyPath: args.privateKey,
-   certPath: args.clientCert,
-   caPath: args.caCert,
-   clientId: args.clientId,
-   region: args.region,
-   baseReconnectTimeMs: args.baseReconnectTimeMs,
-   keepalive: args.keepAlive,
-   protocol: args.Protocol,
-   port: args.Port,
-   host: args.Host,
-   debug: args.Debug
-}); */
 
 var device = awsIot.device({
    keyPath: './0b097dc5cf-private.pem.key',
@@ -34,32 +18,17 @@ var device = awsIot.device({
 device
   .on('connect', function() {
     console.log('connect');
-    //device.subscribe('myCognitiveTruckPolicy/1');
-    //device.subscribe('myCognitiveTruckPolicy/2');
-    //device.publish('myCognitiveTruckPolicy/1', JSON.stringify({test_data: 'Nodejs....'}));
-    //device.publish('myCognitiveTruckPolicy/1', JSON.stringify({ test_data: 1}));
-    //device.publish('myCognitiveTruckPolicy/2', JSON.stringify({ test_data: 2}));
-
 
     var i = 0;
 
     setInterval(function() {
         if (i >= sampleCarData.length) {
-            //context.done();
+
             return;
         }
 
-        // var params = {
-        //     "topic" : "trucks/truck1234",
-        //     "payload" : JSON.stringify(sampleCarData[i])
-        // };
-
-        //console.log('\n Publishing:\n', JSON.stringify(params));
-
         device.publish('myCognitiveTruckPolicy/1', JSON.stringify(sampleCarData[i]));
-        // device.publish(params, function(err, data) {
-        //     if (err) console.log(err.stack, data);
-        // });
+
         console.log('Message Sent ...');
 
         i++;
