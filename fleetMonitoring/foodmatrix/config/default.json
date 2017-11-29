@@ -1,0 +1,7 @@
+{
+  "keyPath": "./06406800f7-private.pem.key",
+  "certPath": "./06406800f7-certificate.pem.crt",
+  "caPath": "./rootCA.pem",
+  "clientId": "edge-device-1",
+  "host": "awf0qyr416vol.iot.us-east-1.amazonaws.com"
+}

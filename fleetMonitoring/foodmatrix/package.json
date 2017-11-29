@@ -1,0 +1,14 @@
+{
+  "name": "foodmatrix",
+  "version": "0.0.1",
+  "description": "",
+  "main": "edgeclient.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miko Aro",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.28.1"
+  }
+}
