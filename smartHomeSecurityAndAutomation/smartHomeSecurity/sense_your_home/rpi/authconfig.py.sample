@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+
+myauth = {
+    'ACCESS_KEY': 'Your Access Key Here',
+    'SECRET_KEY': 'Your Secret Key Here',
+    'AWS_DEFAULT_REGION': 'Your AWS Region Here'
+};
