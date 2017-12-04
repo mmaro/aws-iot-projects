@@ -3,7 +3,7 @@
 Projects using Amazon Web Services (AWS) including AWS IoT (Internet of Things),
 Amazon Kinesis, and so on
 
-## HomeSecure - A SMART HOME SECURITY AND AUTOMATION
+## HomeSecure - A SMART HOME IoT SOLUTION
 
 Smart home and automation is an internet of things solution for users to have
 more control from preventing water leaks to air quality. It brings reliability
@@ -228,6 +228,10 @@ Food matrix is an IoT Blockchain solution for food safety and audit, cold chain 
 
 Where is my food from?
 Is it safe?
+
+### FoodMatrix in Food Production and Supply Chain
+
+![image alt text](/images/FoodMatrix_1.jpg)
 
 In the directory for the sub-project, navigate the [Fleet Monitoring or Trucking IoT Sub-directory](https://github.com/mmaro/aws-iot-projects/tree/master/fleetMonitoring/foodmatrix) of this project and then to edgeclient js in the foodmatrix folder and execute the command below:
 
