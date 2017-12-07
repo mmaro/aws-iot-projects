@@ -3,7 +3,7 @@
 Projects using Amazon Web Services (AWS) including AWS IoT (Internet of Things),
 Amazon Kinesis, and so on
 
-## HomeSecure - A SMART HOME IoT SOLUTION
+## HomeSecure - Lowering Home Insurance Price Using SMART HOME IoT SOLUTION
 
 Smart home and automation is an internet of things solution for users to have
 more control from preventing water leaks to air quality. It brings reliability
@@ -254,8 +254,23 @@ Amazon EC2
 
 ```
 
+## 3.3 Lowering Vehicle Insurance Premium Using ARITY Driving Behavior SDK AND AWS IoT
+
+### Arity Driving Engine SDK
+
+![image alt text](/images/Arity_DE_SDK.png)
+
+### Driving Behavior using Arity SDK/API
+
+![image alt text](/images/arity_driving_behavior.png)
+
+
 
 ## 4. Amazon FlightPulse, AWS IoT & Mobile Augmented Reality (AR)
+
+### Hardware Setup
+
+![image alt text](/images/rpi_sdr_nooelec.png)
 
 Hardware components used:
 
