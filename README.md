@@ -41,6 +41,7 @@ It is very essential to protect one's home against fire, intruders, flood or wat
 - Adafruit Bluefruit LE UART Friend - Bluetooth Low Energy (BLE)
 - Raspberry Pi 3
 - Gas Sensor
+- Raspberry Pi Camera
 - Raspberry Pi Camera Module Mount
 
 
