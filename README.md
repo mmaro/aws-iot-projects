@@ -167,7 +167,7 @@ An insurer or user would like to see and analyze a trend of 5 minutes worth of d
 
 - Temperature greater than 38°C (100°F).
 - Temperature below 10°C (50°F).
-- An RH less than 33 promotes condensation on the windows.
+- An RH less than 33 promotes condensation on the windows, visible mold growth in your home, basement, and/or crawl space, peeling wallpaper/blistering paint, allergic reactions to mold and/or dust mites, a musty odor in your home, and/or basement and crawl space or cupped wood floors.
 - Water leak becomes wet promotes flooding of the kitchen, laundry, beach house 3rd floor or any other places.
 
 Alarms (rules) are activated for conditions that are outside the ideal ranges as stated above.
