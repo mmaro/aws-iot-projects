@@ -1,8 +1,9 @@
+#Driving Behavior Instructions
+
 ### Arity Driving Engine SDK
 
 ![image alt text](/images/Arity_DE_SDK.png)
 
-#Driving Behavior Instructions
 
 ### Driving Behavior using Arity SDK/API
 

@@ -3,7 +3,7 @@
 Projects using Amazon Web Services (AWS) including AWS IoT (Internet of Things),
 Amazon Kinesis, and so on
 
-## HomeSecure - Lowering Home Insurance Premium Using SMART HOME IoT SOLUTION
+## HomeSecure and Insurance - Lowering Home Insurance Premium Using SMART HOME IoT SOLUTION
 
 Smart home and automation is an internet of things solution for users to have
 more control from preventing water leaks to air quality. It brings reliability
@@ -268,9 +268,14 @@ Amazon EC2
 
 ## 4. Amazon FlightPulse, AWS IoT & Mobile Augmented Reality (AR)
 
+### Architecture
+
+![image alt text](/images/rpi_sdr_Arch_1.png)
+
 ### Hardware Setup
 
 ![image alt text](/images/rpi_sdr_nooelec.png)
+
 
 Hardware components used:
 
