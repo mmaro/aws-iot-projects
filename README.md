@@ -5,7 +5,7 @@ Amazon Kinesis, and so on
 
 ## Project Introduction: HomeSecure and Homeowner’s Insurance - IoT and SMART HOME SOLUTION for Insurers
 
-HomeSecure for insurers is an internet of things smart home and automation solution for users to have more control from preventing water leaks to air quality. It brings reliability and intelligence to homes using AWS IoT services, applications and sensors. Also, provides insurance and voice controlled features using Alexa Voice Services and other AI services. The IoT solution also insurance companies to better relate with their customers. It provides an opportunity for an insurance company to move from being passive and reacting to losses to helping prevent them.
+HomeSecure for insurers is an internet of things smart home and automation solution for users to have more control from preventing water leaks to air quality. It brings reliability and intelligence to homes using AWS IoT services, applications and sensors. Also, provides insurance and voice controlled features using Alexa Voice Services and other AI services. The IoT solution also helps insurance companies to better relate with their customers. It provides an opportunity for an insurance company to move from being passive and reacting to losses to helping prevent them.
 
 In the connected home, devices and sensors generate a lot of data that are refined and exploited. This data is particularly important to insurers who have traditionally based their pricing on risk assessment. HomeSecure offers better data on which to base judgements by insurers. HomeSecure would give insurers a more direct relationship with the consumer through daily interaction using touch points in apps and messaging. Insurers also become more competitive by adopting pricing strategies that include direct sourcing and bundling with policies.
 
@@ -163,14 +163,14 @@ In the absence of a physical device, sample data can be also generated from the 
 
 ### Use Case, Business Imperative, and Amazon Kinesis Firehose delivery streams
 
-An insurer or user would like to see and analyze a trend of 5 minutes worth of data. The use case requires that water leak sensor/value be dry. The ideal thresholds for temperature ranges from a minimum of 10 to a maximum of 38 degree celsius. The ideal condition for relative humidity is any value above the minimum of 33. When conditions are outside ideal ranges, several issues arise:
+An insurer or user would like to see and analyze a trend of 5 minutes worth of data. The use case requires that water leak sensor/value be dry. The ideal thresholds for temperature ranges from a minimum of 10 to a maximum of 38 degree celsius. For indoor air quality, the ideal condition for indoor relative humidity for health and comfort can be set to about 40-50%. In the winter months, it may have to be lower than 40% RH. For this use case, an ideal condition for indoor relative humidity is any value above the minimum of 33 and up to 50%. When conditions are outside ideal ranges, several issues arise:
 
 - Temperature greater than 38°C (100°F).
 - Temperature below 10°C (50°F).
-- An RH less than 33.
-- Water leak becomes wet.
+- An RH less than 33 promotes condensation on the windows.
+- Water leak becomes wet promotes flooding of the kitchen, laundry, beach house 3rd floor or any other places.
 
-Alarms (rules) are activated for conditions that are outside the ideal ranges.
+Alarms (rules) are activated for conditions that are outside the ideal ranges as stated above.
 
 There are more details about the setup for Kinesis and Quicksight in this [similar project](https://aws.amazon.com/blogs/big-data/build-a-visualization-and-monitoring-dashboard-for-iot-data-with-amazon-kinesis-analytics-and-amazon-quicksight/) : Build a Visualization and Monitoring Dashboard for IoT Data with Amazon Kinesis Analytics and Amazon QuickSight.
 
