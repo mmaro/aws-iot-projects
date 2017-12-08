@@ -176,6 +176,45 @@ Alarms (rules) are activated for conditions that are outside the ideal ranges as
 There are more details about the setup for Kinesis and Quicksight in this [similar project](https://aws.amazon.com/blogs/big-data/build-a-visualization-and-monitoring-dashboard-for-iot-data-with-amazon-kinesis-analytics-and-amazon-quicksight/) : Build a Visualization and Monitoring Dashboard for IoT Data with Amazon Kinesis Analytics and Amazon QuickSight.
 
 
+### Create four Firehose delivery streams
+
+1. Open the **Kinesis Firehose** console at https://console.aws.amazon.com/firehose/
+2. Create all four Firehose delivery streams by choosing the **Create Delivery Stream** button. Follow the steps in the wizard and choose the default settings except for the **buffer interval**. Change the **buffer interval** to 300 seconds i.e. 5 minute-window for trend analysis. Use the fields and values in the tables below.
+
+**Delivery stream 1:**
+
+|Field                  | Value
+|:---                   |:---
+|Name                   | IoT-Source-Stream
+|S3 bucket              | [your unique name here]-kinesis
+|S3 prefix              | source/
+
+**Delivery stream 2:**
+
+|Field                  | Value
+|:---                   |:---
+|Name                   | IoT-Destination-Data-Stream
+|S3 bucket              | [your unique name here]-kinesis
+|S3 prefix              | data/
+
+**Delivery stream 3:**
+
+|Field                  | Value
+|:---                   |:---
+|Name                   | IoT-Destination-Aggregate-Temp-Stream
+|S3 bucket              | [your unique name here]-kinesis
+|S3 prefix              | aggregate-temp/
+
+**Delivery stream 4:**
+
+|Field                  | Value
+|:---                   |:---
+|Name                   | IoT-Destination-Aggregate-Humidity-Stream
+|S3 bucket              | [your unique name here]-kinesis
+|S3 prefix              | aggregate-humidity/
+
+
+
 ## OTHER AWS IoT/ AMAZON KINESIS PROJECTS I AM WORKING ON
 
 ## 1.AIR QUALITY MONITORING IN SMART CITY USING WIRELESS SENSORS
