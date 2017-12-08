@@ -41,6 +41,7 @@ It is very essential to protect one's home against fire, intruders, flood or wat
 - Adafruit Bluefruit LE UART Friend - Bluetooth Low Energy (BLE)
 - Raspberry Pi 3
 - Gas Sensor
+- Raspberry Pi Camera Module Mount
 
 
 ### Software and Cloud Services used:
@@ -171,7 +172,7 @@ An insurer or user would like to see and analyze a trend of 5 minutes worth of d
 
 Alarms (rules) are activated for conditions that are outside the ideal ranges.
 
-There are more details about the setup in this [similar project](https://aws.amazon.com/blogs/big-data/build-a-visualization-and-monitoring-dashboard-for-iot-data-with-amazon-kinesis-analytics-and-amazon-quicksight/) : Build a Visualization and Monitoring Dashboard for IoT Data with Amazon Kinesis Analytics and Amazon QuickSight.
+There are more details about the setup for Kinesis and Quicksight in this [similar project](https://aws.amazon.com/blogs/big-data/build-a-visualization-and-monitoring-dashboard-for-iot-data-with-amazon-kinesis-analytics-and-amazon-quicksight/) : Build a Visualization and Monitoring Dashboard for IoT Data with Amazon Kinesis Analytics and Amazon QuickSight.
 
 
 ## OTHER AWS IoT/ AMAZON KINESIS PROJECTS I AM WORKING ON
