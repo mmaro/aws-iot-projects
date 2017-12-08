@@ -215,6 +215,27 @@ There are more details about the setup for Kinesis and Quicksight in this [simil
 
 
 
+### Set up AWS IoT to receive and forward incoming data
+
+1. Sign in to the **AWS Management Console** and open the **AWS IoT console**.
+2. In the **AWS IoT console**, choose **Rules** in the left navigation pane.
+3. On the **Rules page**, choose **Create**.
+4. On the **Create a rule page**, in the **Name field**, type a name for your rule. In the **Description** field, type a description for the rule.
+5. Create a new AWS IoT Rule with the given values in the following table. The **Attribute field [*]** specifies that you want to send the entire MQTT message that triggered the rule.
+
+
+|Field                  | Value
+|:---                   |:---
+|Name                   | IoT_to_Kinesis_Data_Firehose
+|Attribute              | *
+|Topic Filter           | /homesecure/devicedata
+|Condition              | [none – leave blank]
+|Add Action             | Send messages to an Amazon Kinesis Firehose stream (select IoT-Source-Stream from the Stream name dropdown)
+|Select Separator       | "\n (newline)"
+
+**Create a new role** or select an **existing role**.
+
+
 ## OTHER AWS IoT/ AMAZON KINESIS PROJECTS I AM WORKING ON
 
 ## 1.AIR QUALITY MONITORING IN SMART CITY USING WIRELESS SENSORS
