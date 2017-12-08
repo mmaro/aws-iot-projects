@@ -72,7 +72,7 @@ It is very essential to protect one's home against fire, intruders, flood or wat
 
 ### System Overview
 
-We need a Raspberry Pi and Arduino UNO as well as sensors. The devices can be placed anywhere in the home to measure. Data collected from the HomeSecure monitor is sent via directly to AWS IoT, where the data can be displayed and analyzed using Amazon Kinesis and other Amazon web services.
+We need a Raspberry Pi and Arduino UNO as well as sensors. The devices can be placed anywhere in the home to measure. Data collected from the HomeSecure monitor is sent directly to AWS IoT, where the data can be displayed and analyzed using Amazon Kinesis and other Amazon web services.
 
 ![image alt text](/images/arduino_uno_sensors_0.png)
 
