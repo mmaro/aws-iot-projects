@@ -163,7 +163,7 @@ In the absence of a physical device, sample data can be also generated from the 
 
 ### Use Case, Business Imperative, and Amazon Kinesis Firehose delivery streams
 
-An insurer or user would like to see and analyze a trend of 5 minutes worth of data. The use case requires that water leak be dry. The ideal thresholds for temperature ranges from a minimum of 10 to a maximum of 38 degree celsius. The ideal condition for relative humidity is any value above the minimum of 33. When conditions are outside ideal ranges, several issues arise:
+An insurer or user would like to see and analyze a trend of 5 minutes worth of data. The use case requires that water leak sensor/value be dry. The ideal thresholds for temperature ranges from a minimum of 10 to a maximum of 38 degree celsius. The ideal condition for relative humidity is any value above the minimum of 33. When conditions are outside ideal ranges, several issues arise:
 
 - Temperature greater than 38°C (100°F).
 - Temperature below 10°C (50°F).
